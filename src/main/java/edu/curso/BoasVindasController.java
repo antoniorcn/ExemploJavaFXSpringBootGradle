@@ -15,7 +15,7 @@ public class BoasVindasController implements Initializable {
     public Label labelBoasVindas;
 
     @Autowired
-    private ServicoBoasVindas boasVindas;
+    private BoasVindasServico boasVindas;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -28,7 +28,7 @@ public class BoasVindasController implements Initializable {
         return boasVindas.getBoasVindas();
     }
 
-    public void setBoasVindas(ServicoBoasVindas boasVindas) {
+    public void setBoasVindas(BoasVindasServico boasVindas) {
         this.boasVindas = boasVindas;
     }
 }
