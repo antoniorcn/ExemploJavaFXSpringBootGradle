@@ -15,11 +15,12 @@ import java.io.IOException;
 public class App extends Application {
 
     @Autowired
-    WelcomeController welcomeController;
+    BoasVindasController boasVindasController;
 
     public static void main(String[] args) {
         Application.launch(App.class, args);
     }
+
     @Override
     public void init() {
         SpringApplication.run(getClass()).getAutowireCapableBeanFactory().autowireBean(this);
@@ -27,20 +28,22 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) {
-        System.out.println(welcomeController.getWelcomeMessage());
-        Parent welcomePane = loadFxml("/welcome.fxml");
+        System.out.println(boasVindasController.getBoasVindas());
+        Parent welcomePane = loadFxml("/hello.fxml");
         Scene scn = new Scene(welcomePane, 600, 400);
         stage.setScene(scn);
+        stage.setTitle("Olá Mundo JavaFX + SpringBoot + Gradle");
         stage.show();
     }
 
-    private Parent loadFxml(String view) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource(view));
-        loader.setControllerFactory(param -> welcomeController);
+    private Parent loadFxml(String viewFileName) {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(viewFileName));
+        loader.setControllerFactory(param -> boasVindasController);
         try {
             loader.load();
         } catch (IOException ex) {
-            System.err.println("IOException while loading resource " + view);        }
+            System.err.println("IOException while loading resource " + viewFileName);
+        }
         return loader.getRoot();
     }
 }
