@@ -1,5 +1,6 @@
 plugins {
     id 'application'
+    id 'java-library'
     id 'org.openjfx.javafxplugin' version '0.0.12'
     id 'org.springframework.boot' version '2.6.8'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
@@ -10,8 +11,8 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
 javafx {
-    version = "13.0.1"
-    modules = [ 'javafx.controls', 'javafx.fxml' ]
+    version = "18.0.1"
+    modules = [ 'javafx.controls', 'javafx.web', 'javafx.graphics', 'javafx.fxml', 'javafx.media' ]
 }
 
 configurations {
@@ -28,11 +29,13 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.0-rc2'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    api 'io.github.typhon0:AnimateFX:1.2.2'
 }
 
 mainClassName = 'edu.curso.App'

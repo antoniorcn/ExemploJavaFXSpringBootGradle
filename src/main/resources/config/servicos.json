@@ -1,0 +1,35 @@
+[
+  {
+    "id": "0001",
+    "titulo": "Cabelo",
+    "descricao": "Corte de cabelo",
+    "imagemNome": "images/cabelo.png",
+    "imageWidth": 300,
+    "imageHeight": 224,
+    "style": "-fx-background-color: yellow",
+    "somNome": "prepare.mp3",
+    "preco": 35.00
+  },
+  {
+    "id": "0002",
+    "titulo": "Bigode",
+    "descricao": "Aparar o bigode",
+    "imagemNome": "images/bigode.png",
+    "imageWidth": 300,
+    "imageHeight": 144,
+    "style": "-fx-background-color: gold",
+    "somNome": "prepare.mp3",
+    "preco": 25.00
+  },
+  {
+    "id": "0003",
+    "titulo": "Barba",
+    "descricao": "Corte da barba",
+    "imagemNome": "images/barba.png",
+    "imageWidth": 300,
+    "imageHeight": 200,
+    "style": "-fx-background-color: yellow",
+    "somNome": "prepare.mp3",
+    "preco": 30.00
+  }
+]

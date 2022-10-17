@@ -1,0 +1,57 @@
+[
+  {
+    "id": "0001",
+    "titulo": "Augusto",
+    "descricao": "Augusto",
+    "imagemNome": "images/augusto.jpg",
+    "imageWidth": 300,
+    "imageHeight": 200,
+    "style": "-fx-background-color: yellow",
+    "somNome": "prepare.mp3",
+    "preco": 0.0
+  },
+  {
+    "id": "0002",
+    "titulo": "Hermes",
+    "descricao": "Hermes",
+    "imagemNome": "images/hermes.jpg",
+    "imageWidth": 300,
+    "imageHeight": 200,
+    "style": "-fx-background-color: gold",
+    "somNome": "prepare.mp3",
+    "preco": 0.0
+  },
+  {
+    "id": "0003",
+    "titulo": "Kaique",
+    "descricao": "Kaique",
+    "imagemNome": "images/kaique.jpg",
+    "imageWidth": 300,
+    "imageHeight": 200,
+    "style": "-fx-background-color: yellow",
+    "somNome": "prepare.mp3",
+    "preco": 0.0
+  },
+  {
+    "id": "0004",
+    "titulo": "Marcos",
+    "descricao": "Marcos",
+    "imagemNome": "images/marcos.jpg",
+    "imageWidth": 300,
+    "imageHeight": 200,
+    "style": "-fx-background-color: gold",
+    "somNome": "prepare.mp3",
+    "preco": 0.0
+  },
+  {
+    "id": "0005",
+    "titulo": "Renan",
+    "descricao": "Renan",
+    "imagemNome": "images/renan.jpg",
+    "imageWidth": 300,
+    "imageHeight": 200,
+    "style": "-fx-background-color: yellow",
+    "somNome": "prepare.mp3",
+    "preco": 0.0
+  }
+]

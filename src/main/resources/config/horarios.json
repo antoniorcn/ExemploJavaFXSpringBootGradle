@@ -1,0 +1,87 @@
+[
+  {
+    "id": "0001",
+    "titulo": "10:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0002",
+    "titulo": "10:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0003",
+    "titulo": "11:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0004",
+    "titulo": "11:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0005",
+    "titulo": "12:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0006",
+    "titulo": "12:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0007",
+    "titulo": "13:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0008",
+    "titulo": "13:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0009",
+    "titulo": "14:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0010",
+    "titulo": "14:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0011",
+    "titulo": "15:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0012",
+    "titulo": "15:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "00013",
+    "titulo": "16:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0014",
+    "titulo": "16:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0015",
+    "titulo": "17:00h",
+    "style": "-fx-background-color: yellow"
+  },
+  {
+    "id": "0016",
+    "titulo": "17:30h",
+    "style": "-fx-background-color: gold"
+  },
+  {
+    "id": "0017",
+    "titulo": "18:00h",
+    "style": "-fx-background-color: yellow"
+  }
+]
